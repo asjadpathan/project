@@ -1,10 +1,9 @@
-import './featuressection.css'
+import './FeaturesSection.css'
 
 const FeaturesSection = () => {
   return (
     <section className="features" id="features">
       <div className="features__container">
-        {/* Heading */}
         <div className="features__heading">
           <h2 className="features__title">Intelligent Features for Modern Minds</h2>
           <p className="features__subtitle">
@@ -13,9 +12,7 @@ const FeaturesSection = () => {
           </p>
         </div>
 
-        {/* Bento Grid */}
         <div className="features__grid">
-          {/* Card 1 — AI Roadmap (wide) */}
           <article className="fcard fcard--wide">
             <div className="fcard__icon fcard__icon--blue">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -43,7 +40,6 @@ const FeaturesSection = () => {
             </div>
           </article>
 
-          {/* Card 2 — Community Zone (tall) */}
           <article className="fcard fcard--tall">
             <div className="fcard__icon fcard__icon--blue">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -66,7 +62,6 @@ const FeaturesSection = () => {
             </div>
           </article>
 
-          {/* Card 3 — Document Summarization */}
           <article className="fcard fcard--half">
             <div className="fcard__icon fcard__icon--blue">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -84,7 +79,6 @@ const FeaturesSection = () => {
             </div>
           </article>
 
-          {/* Card 4 — Job Description Matching */}
           <article className="fcard fcard--half">
             <div className="fcard__icon fcard__icon--blue">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">

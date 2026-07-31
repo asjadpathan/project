@@ -18,11 +18,7 @@
   box-sizing: border-box;
 }
 
-/* ---- Content (Left) ---- */
-
-.hero__content {
-  max-width: 480px;
-}
+.hero__content { max-width: 480px; }
 
 .hero__eyebrow {
   margin: 0 0 4px;
@@ -41,9 +37,7 @@
   color: #111827;
 }
 
-.hero__title-highlight {
-  color: #2563eb;
-}
+.hero__title-highlight { color: #2563eb; }
 
 .hero__description {
   margin: 24px 0 0;
@@ -98,8 +92,6 @@
   color: #111827;
 }
 
-/* ---- Visual (Right) ---- */
-
 .hero__visual {
   display: flex;
   justify-content: center;
@@ -142,10 +134,7 @@
   flex-shrink: 0;
 }
 
-.hero__card-badge-text {
-  display: flex;
-  flex-direction: column;
-}
+.hero__card-badge-text { display: flex; flex-direction: column; }
 
 .hero__card-badge-label {
   font-size: 0.7rem;
@@ -161,30 +150,11 @@
   margin-top: 1px;
 }
 
-
-/* ========================================
-   TABLET — up to 1024px
-   ======================================== */
-
 @media (max-width: 1024px) {
-  .hero__container {
-    padding: 60px 24px 48px;
-    gap: 36px;
-  }
-
-  .hero__title {
-    font-size: clamp(2rem, 3.5vw, 2.6rem);
-  }
-
-  .hero__card {
-    min-height: 320px;
-  }
+  .hero__container { padding: 60px 24px 48px; gap: 36px; }
+  .hero__title { font-size: clamp(2rem, 3.5vw, 2.6rem); }
+  .hero__card { min-height: 320px; }
 }
-
-
-/* ========================================
-   MOBILE — up to 480px
-   ======================================== */
 
 @media (max-width: 480px) {
   .hero__container {
@@ -193,47 +163,13 @@
     gap: 32px;
     text-align: center;
   }
-
-  .hero__content {
-    max-width: 100%;
-  }
-
-  .hero__title {
-    font-size: 2rem;
-  }
-
-  .hero__description {
-    max-width: 100%;
-    font-size: 0.935rem;
-  }
-
-  .hero__actions {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .hero__btn {
-    padding: 12px 24px;
-  }
-
-  .hero__visual {
-    order: -1;
-  }
-
-  .hero__card {
-    min-height: 240px;
-    max-width: 100%;
-  }
-
-  .hero__card-badge {
-    top: 16px;
-    right: 16px;
-    padding: 8px 12px;
-    gap: 8px;
-  }
-
-  .hero__card-badge-icon {
-    width: 30px;
-    height: 30px;
-  }
+  .hero__content { max-width: 100%; }
+  .hero__title { font-size: 2rem; }
+  .hero__description { max-width: 100%; font-size: 0.935rem; }
+  .hero__actions { justify-content: center; flex-wrap: wrap; }
+  .hero__btn { padding: 12px 24px; }
+  .hero__visual { order: -1; }
+  .hero__card { min-height: 240px; max-width: 100%; }
+  .hero__card-badge { top: 16px; right: 16px; padding: 8px 12px; gap: 8px; }
+  .hero__card-badge-icon { width: 30px; height: 30px; }
 }
